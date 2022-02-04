@@ -6,3 +6,12 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
     # exclude: app/test_endpoints.py
+
+-   repo: local
+    hooks:
+    -   id: pytest-check
+        name: PyTest Runner
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true

@@ -15,4 +15,4 @@ def test_home_detail_view():
     response=client.post("/")
     assert response.status_code==200
     assert "application/json" in response.headers['content-type']
-    assert response.json() == {"Hello":"Praveen Singh Beniwal Tora Tora Only"}
+    assert response.json() == {"Hello":"Praveen Singh"}
