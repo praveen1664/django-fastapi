@@ -20,4 +20,4 @@ def home_view(request: Request):
 
 @app.post("/")
 def home_detail_view():
-    return {"Hello":"Praveen"}
+    return {"Hello":"Praveen Beniwal"}
