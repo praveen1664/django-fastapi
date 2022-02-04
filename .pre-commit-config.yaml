@@ -5,4 +5,4 @@ repos:
     -   id: trailing-whitespace
     -   id: check-yaml
     -   id: check-added-large-files
-    exclude: app/test_endpoints.py
+    # exclude: app/test_endpoints.py
